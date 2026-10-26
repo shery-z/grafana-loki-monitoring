@@ -1,0 +1,36 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.secret
+secrets/
+
+# Logs
+*.log
+logs/
+
+# Runtime data and storage
+data/
+loki-data/
+grafana-data/
+alloy-data/
+storage/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.vscode/
+.idea/
+
+# Python cache, if scripts are added later
+__pycache__/
+*.pyc
